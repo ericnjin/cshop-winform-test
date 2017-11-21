@@ -33,6 +33,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.materialCheckBox1 = new MaterialSkin.Controls.MaterialCheckBox();
             this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.button2 = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,7 +70,7 @@
             this.materialCheckBox1.AutoSize = true;
             this.materialCheckBox1.Depth = 0;
             this.materialCheckBox1.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialCheckBox1.Location = new System.Drawing.Point(495, 169);
+            this.materialCheckBox1.Location = new System.Drawing.Point(165, 168);
             this.materialCheckBox1.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckBox1.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialCheckBox1.MouseState = MaterialSkin.MouseState.HOVER;
@@ -96,11 +98,32 @@
             this.materialSingleLineTextField1.UseSystemPasswordChar = false;
             this.materialSingleLineTextField1.Click += new System.EventHandler(this.materialSingleLineTextField1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(62, 288);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(102, 94);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(33, 189);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(104, 19);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 515);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.materialSingleLineTextField1);
             this.Controls.Add(this.materialCheckBox1);
             this.Controls.Add(this.button1);
@@ -122,6 +145,8 @@
         private System.Windows.Forms.Button button1;
         private MaterialSkin.Controls.MaterialCheckBox materialCheckBox1;
         private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
